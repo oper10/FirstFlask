@@ -14,3 +14,16 @@
 li {
     float: left;
 }
+
+div.form{
+    display: block;
+    text-align: center;
+}
+
+form label{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
