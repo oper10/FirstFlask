@@ -15,9 +15,15 @@ li {
     float: left;
 }
 
-div.form{
-    display: block;
-    text-align: center;
+div.form-group{
+    color: white;
+}
+
+.container{
+    background-color: #3F0E40;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    margin-block: auto;
 }
 
 form label{
@@ -27,3 +33,15 @@ form label{
     text-align: left;
 }
 
+body {
+    background-color: mediumorchid;
+    height: 100%;
+}
+
+div.container h1{
+    color: papayawhip;
+}
+
+#error{
+    color: lightcoral
+}
