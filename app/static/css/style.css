@@ -21,9 +21,10 @@ div.form-group{
 
 .container{
     background-color: #3F0E40;
-    height: 100%;
+    height: calc(100vh - 56px);
     padding: 20px 20px 20px 20px;
-    margin-block: auto;
+    position: relative;
+    overflow: hidden;
 }
 
 form label{
@@ -44,4 +45,16 @@ div.container h1{
 
 #error{
     color: lightcoral
+}
+
+#emailhelp{
+    color: #3F0E40;
+}
+
+.container, p{
+    color:white;
+}
+
+.btn{
+    text-align: center;
 }
