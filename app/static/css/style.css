@@ -1,5 +1,4 @@
 #error404{
-    background: url(../image/404errorimg.jpg) no-repeat right center;
     height: 100vh;
     display: block;
     position: relative;
@@ -32,6 +31,7 @@ form label{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    padding: 5px;
 }
 
 body {
@@ -57,4 +57,18 @@ div.container h1{
 
 .btn{
     text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
+
+.grid-item{
+    width: calc(33vw - 30px);
+    float: right;
+    margin-bottom: 30px;
+}
+
+.grid-item img{
+    width: 100%;
+    height: auto;
+}
+
