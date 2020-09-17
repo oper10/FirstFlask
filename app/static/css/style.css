@@ -5,6 +5,11 @@
     background-size: 600px 400px;
 }
 
+#navbar{
+    background-color: darkmagenta;
+    color: white;
+}
+
 #error404 h1{
     font-size: 8rem;
     margin-top: 2rem;
@@ -16,6 +21,9 @@ li {
 
 div.form-group{
     color: white;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
 }
 
 .container{
@@ -63,12 +71,13 @@ div.container h1{
 
 .grid-item{
     width: calc(33vw - 30px);
-    float: right;
+    float: left;
     margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .grid-item img{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
