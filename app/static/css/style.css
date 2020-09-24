@@ -81,3 +81,40 @@ div.container h1{
     height: auto;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+
+.modal-body{
+    max-width: 200%;
+    max-height: 200%;
+}
+.modal-content img{
+    padding: 20px 20px 20px 20px;
+    max-width: 100%;
+    max-height: auto;
+    float:left;
+}
+
+.fa.fa-times{
+    float:right;
+    margin-right: 20px;
+}
+
+h5{
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.modal-body p{
+    color: black;
+    margin-left: 20px;
+}
