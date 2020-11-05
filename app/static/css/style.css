@@ -5,6 +5,10 @@
     background-size: 600px 400px;
 }
 
+.col{
+    max-width: 500px;
+}
+
 #navbar{
     background-color: darkmagenta;
     color: white;
@@ -71,7 +75,6 @@ div.container h1{
 
 .grid-item{
     width: calc(33vw - 30px);
-    float: left;
     margin-bottom: 30px;
     margin-left: 30px;
 }
@@ -117,4 +120,23 @@ h5{
 .modal-body p{
     color: black;
     margin-left: 20px;
+}
+
+#avatar{
+    height: 100px;
+    width: 100px;
+}
+
+#avatar img{
+    height: 100px;
+    width: 100px;
+}
+
+#image img{
+    max-height: 500px;
+}
+
+.grid{
+    max-width: 250px;
+    max-height: auto;
 }

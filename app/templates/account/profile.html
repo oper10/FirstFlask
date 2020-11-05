@@ -18,11 +18,11 @@
             <!--This is Where Username and Password inputs and Auth-->
             <div class="form-group"> <!--FirstName-->
                 <label for="firstname">First Name:</label>
-                <input type="text" lass="form-control"  placeholder="First_Name" name="firstname">
+                <input type="text" id="inputFirstName" name="firstname" class="form-control" placeholder="First Name" required="required" value="{{ session['user']['first_name'] }}">
             </div>
             <div class="form-group"> <!--LastName-->
                 <label for="lastname">Last Name:</label>
-                <input type="text" lass="form-control"  placeholder="Last_Name" name="lastname">
+                <input type="text" id="inputLastName" name="lastname" class="form-control" placeholder="Last Name" required="required" value="{{ session['user']['last_name'] }}">
             </div>
             <div class="form-group"> <!--Password-->
                 <label for="passwordchange">Password:</label>
@@ -33,7 +33,13 @@
                 <input type="file" name="avatar" class="form-control"  placeholder="avatar">
             </div>
             <input type="submit" value="Submit" class="btn btn-primary"> <!--Submit Button-->
+            
         </form>
+        {% if session['user']['avatar'] %}
+	<div id="avatar">
+		<img src="{{ session['user']['avatar'] }}" alt="Your Profile Image">
+	</div>
+{% endif %}
     </div>
     <div class="col-3"></div>
     </div>
