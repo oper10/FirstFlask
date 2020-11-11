@@ -9,7 +9,6 @@ class Account():
     def __init__(self):
         self.user = User()
         return None
-
     def register(self, request):
         """ 
         Registration method. 
@@ -87,7 +86,7 @@ class Account():
             raise Exception(error)
         else:
             return
-        
+        # Checks for updates from user request to their profile
     def update(self, request):
         if request.method == 'POST':
             first_name = request.form['firstname']

@@ -113,8 +113,8 @@ div.container h1{
 }
 
 h5{
-    font-size: 36px;
-    margin-left: 20px;
+    font-size: 55px;
+    font-family: Verdana;
 }
 
 .modal-body p{
@@ -137,6 +137,6 @@ h5{
 }
 
 .grid{
-    max-width: 250px;
+    max-width: 500px;
     max-height: auto;
 }

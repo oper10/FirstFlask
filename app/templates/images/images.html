@@ -17,9 +17,7 @@
 				<div class="grid-item">
 					<img src="{{ image.upload_location }}" alt="{{ image.description }}">
 					<div class="info row mx-0">
-						<div class="col-2 avatar pl-0">
-							<img src="{{ image.user_avatar }}" alt="{{ image.user_name }}">
-						</div>
+						
 						<div class="col-10 pr-0">
 							<h5>
 								{{ image.name }} 
@@ -29,7 +27,11 @@
 								</a>
 							</h5>
 							<p>{{ image.description }}</p>
-							<small>{{ image.user_name }}</small>
+							<div class="col-2 avatar pl-0">
+								<img src="{{ image.user_avatar }}" alt="{{ image.user_name }}">
+								<small>{{ image.user_name }}</small>
+							</div>
+							
 							
 						</div>
 					</div>

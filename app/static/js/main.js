@@ -18,8 +18,13 @@ $(document).ready(function(){
 			}, 
 			function(result) {
 				//code to change the like icon
-				_this.removeClass('like fa-heart')
-				_this.removeClass('like fs-heart')
+				if (like) {
+					_this.removeClass('far');
+					_this.addClass('fas')
+				} else{
+					_this.removeClass('fas');
+					_this.addClass('far')
+				}
 			}
 		);
 	});
